@@ -1,13 +1,106 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "quicksand";
+  color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  border-bottom: solid 1px rgb(153, 153, 153, 0.1);
+}
+
+.navbar h2{
+  color: #b32323;
+}
+
+.navbar .links{
+  margin-left: auto;
+  display: flex;
+  list-style: none;
+}
+.navbar a{
+  margin-left: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+.navbar a:hover{
+  color: #b32323;
+}
+
+.content{
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+.article-preview{
+  margin: 20px 16px;
+  padding: 10px 16px;
+}
+
+.article-preview h2{
+  color: #b32323;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.article-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0, 0.1);
+}
+
+/*article details*/
+
+.article-details h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.article-details div{
+  margin: 20px 0;
+}
+.article-details button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/*create new */
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label{
+  text-align: left; 
+  display: block;
+}
+
+.create h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
