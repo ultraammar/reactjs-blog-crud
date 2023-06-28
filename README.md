@@ -1,6 +1,6 @@
 # This Project uses ReactJs[create-react-app] using a JSON-Server serving as fake REST API
 
-This project uses the backend JSON file [db.json]([https://github.com/facebook/create-react-app](https://my-json-server.typicode.com/ultraammar/reactjs-blog-crud-json-server/articles)).
+This project uses the backend JSON file [db.json] [(https://my-json-server.typicode.com/ultraammar/reactjs-blog-crud-json-server/articles)].
 
 ## Features
 
